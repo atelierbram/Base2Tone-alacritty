@@ -26,11 +26,12 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-cave.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-cave-light.yml"
   base16-builder --scheme "db/schemes/base2tone-heath.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-heath-dark.yml"
   base16-builder --scheme "db/schemes/base2tone-heath.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-heath-light.yml"
-  base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-drawbridge-dark.yml" 
-  # cp "config/alacritty-base2tone-drawbridge-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
+  base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-drawbridge-dark.yml"
   base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-drawbridge-light.yml"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-meadow-dark.yml"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-meadow-light.yml"
+
+  cp "config/alacritty-base2tone-drawbridge-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
  }
 
 # execute it
