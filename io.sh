@@ -30,8 +30,17 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-drawbridge-light.yml"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-meadow-dark.yml"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-meadow-light.yml"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-garden-dark.yml"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-garden-light.yml"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-suburb-dark.yml"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-suburb-light.yml"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/alacritty/dark.ejs" > "config/alacritty-base2tone-lavender-dark.yml"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/alacritty/light.ejs" > "config/alacritty-base2tone-lavender-light.yml"
 
-  cp "config/alacritty-base2tone-drawbridge-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
+  # cp "config/alacritty-base2tone-drawbridge-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
+  cp "config/alacritty-base2tone-lavender-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
+  # cp "config/alacritty-base2tone-suburb-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
+  # cp "config/alacritty-base2tone-garden-dark.yml" "/Users/bram/.config/alacritty/alacritty.yml"
  }
 
 # execute it
